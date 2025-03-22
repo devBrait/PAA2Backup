@@ -13,6 +13,7 @@ void processBackup(FILE *input, FILE *output);
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
+        printf("Combinação não realizada. Parâmetros incorretos.\n");
         printUsage();
         return 1;
     }
